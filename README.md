@@ -50,8 +50,17 @@ Write an automated test for the API used in the 9-day forecast page of the app, 
 
 ### Running the test
 
-[WIP]
+1.  Change current working directory into `task2`
+
+        cd task2
+
+2.  Run the test with behave
+
+        behave
 
 ### Design details
 
-[WIP]
+This is a rather straight-forward task. The API endpoint was captured with [Charles](https://www.charlesproxy.com/), and then further inspected with [Postman](https://www.postman.com/) to understand the json structure of its response, which helps in extracting the needed data. [Requests](https://requests.readthedocs.io/en/master/) was used as usual to handle sending request, and [datetime](https://docs.python.org/3/library/datetime.html) for calculating the day after tomorrow.
+
+![Charles](images/charles.png)
+![Postman](images/postman.png)
