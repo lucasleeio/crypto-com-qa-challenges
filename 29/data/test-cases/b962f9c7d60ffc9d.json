@@ -1,0 +1,215 @@
+{
+  "uid" : "b962f9c7d60ffc9d",
+  "name" : "Putting price and sum from depth table into trade form -- @1.4 ",
+  "historyId" : "a44ee497abcb6f132bd0eb5835de96f2",
+  "time" : {
+    "start" : 1602437951490,
+    "stop" : 1602437951913,
+    "duration" : 423
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: \nExpected: <562306.488>\n     but: was <355397.485>\n\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"task1/features/steps/step_exchange.py\", line 48, in step_check_price_in_form\n    assert_that(float(amount), equal_to(float(context.sum.replace(',', ''))))\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/hamcrest/core/assert_that.py\", line 58, in assert_that\n    _assert_match(actual=actual, matcher=matcher, reason=reason)\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/hamcrest/core/assert_that.py\", line 73, in _assert_match\n    raise AssertionError(description)\n",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: \nExpected: <562306.488>\n     but: was <355397.485>\n\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"task1/features/steps/step_exchange.py\", line 48, in step_check_price_in_form\n    assert_that(float(amount), equal_to(float(context.sum.replace(',', ''))))\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/hamcrest/core/assert_that.py\", line 58, in assert_that\n    _assert_match(actual=actual, matcher=matcher, reason=reason)\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/hamcrest/core/assert_that.py\", line 73, in _assert_match\n    raise AssertionError(description)\n",
+    "steps" : [ {
+      "name" : "Given I am on CRO/USDC trade page",
+      "time" : {
+        "start" : 1602437951491,
+        "stop" : 1602437951537,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click row \"-5\" in depth table",
+      "time" : {
+        "start" : 1602437951537,
+        "stop" : 1602437951822,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see its price and sum put into \"buy\" trade form",
+      "time" : {
+        "start" : 1602437951822,
+        "stop" : 1602437951913,
+        "duration" : 91
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: \nExpected: <562306.488>\n     but: was <355397.485>\n\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"task1/features/steps/step_exchange.py\", line 48, in step_check_price_in_form\n    assert_that(float(amount), equal_to(float(context.sum.replace(',', ''))))\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/hamcrest/core/assert_that.py\", line 58, in assert_that\n    _assert_match(actual=actual, matcher=matcher, reason=reason)\n  File \"/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/hamcrest/core/assert_that.py\", line 73, in _assert_match\n    raise AssertionError(description)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Crypto.com Exchange"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "buy/sell",
+    "value" : "buy"
+  }, {
+    "name" : "row",
+    "value" : "-5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "3275edf36f1b80e",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/28//#testresult/3275edf36f1b80e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602427936697,
+          "stop" : 1602427937102,
+          "duration" : 405
+        }
+      }, {
+        "uid" : "2b2bbfd59c06e486",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/26//#testresult/2b2bbfd59c06e486",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602427351658,
+          "stop" : 1602427352100,
+          "duration" : 442
+        }
+      }, {
+        "uid" : "13e59802399c7543",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/25//#testresult/13e59802399c7543",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602427260701,
+          "stop" : 1602427261121,
+          "duration" : 420
+        }
+      }, {
+        "uid" : "42407a361e736285",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/24//#testresult/42407a361e736285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602426579258,
+          "stop" : 1602426579679,
+          "duration" : 421
+        }
+      }, {
+        "uid" : "fd42c7b036829d0b",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/23//#testresult/fd42c7b036829d0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602426405897,
+          "stop" : 1602426406210,
+          "duration" : 313
+        }
+      }, {
+        "uid" : "c0c26150c7a11359",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/22//#testresult/c0c26150c7a11359",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425861306,
+          "stop" : 1602425861597,
+          "duration" : 291
+        }
+      }, {
+        "uid" : "c804ed46723e5699",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/21//#testresult/c804ed46723e5699",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425688230,
+          "stop" : 1602425688690,
+          "duration" : 460
+        }
+      }, {
+        "uid" : "8b1e3a97486bb1d0",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/20//#testresult/8b1e3a97486bb1d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425529369,
+          "stop" : 1602425529655,
+          "duration" : 286
+        }
+      }, {
+        "uid" : "80f601ca1052f3c7",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/19//#testresult/80f601ca1052f3c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425374498,
+          "stop" : 1602425374783,
+          "duration" : 285
+        }
+      }, {
+        "uid" : "ed1e9c0151969ab1",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/ed1e9c0151969ab1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425065756,
+          "stop" : 1602425066137,
+          "duration" : 381
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b962f9c7d60ffc9d.json",
+  "parameterValues" : [ "buy", "-5" ]
+}
