@@ -3,3 +3,4 @@ PyHamcrest==2.0.2
 requests==2.24.0
 selenium==3.141.0
 PyPOM==2.2.0
+allure-behave==2.8.18
