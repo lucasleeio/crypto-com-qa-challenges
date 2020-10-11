@@ -1,0 +1,205 @@
+{
+  "uid" : "e70f6ec892beeb83",
+  "name" : "Accessing trade page about CRO/USDC",
+  "historyId" : "84a73cd2f81f24086e16a684c3c13410",
+  "time" : {
+    "start" : 1602427441269,
+    "stop" : 1602427448809,
+    "duration" : 7540
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on exchange page",
+      "time" : {
+        "start" : 1602427441270,
+        "stop" : 1602427446298,
+        "duration" : 5028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click \"CRO Markets\" tab",
+      "time" : {
+        "start" : 1602427446298,
+        "stop" : 1602427446507,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click \"CRO/USDC\" item",
+      "time" : {
+        "start" : 1602427446507,
+        "stop" : 1602427446944,
+        "duration" : 437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be on CRO/USDC trade page",
+      "time" : {
+        "start" : 1602427446944,
+        "stop" : 1602427448809,
+        "duration" : 1865
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Crypto.com Exchange"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "30685110906cb8cd",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/26//#testresult/30685110906cb8cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602427342311,
+          "stop" : 1602427350449,
+          "duration" : 8138
+        }
+      }, {
+        "uid" : "ae455526a563d236",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/25//#testresult/ae455526a563d236",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602427250798,
+          "stop" : 1602427259663,
+          "duration" : 8865
+        }
+      }, {
+        "uid" : "8397d6059cffbdea",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/24//#testresult/8397d6059cffbdea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602426571254,
+          "stop" : 1602426578010,
+          "duration" : 6756
+        }
+      }, {
+        "uid" : "d0bd6b25a4437d5f",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/23//#testresult/d0bd6b25a4437d5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602426397022,
+          "stop" : 1602426404670,
+          "duration" : 7648
+        }
+      }, {
+        "uid" : "e246628c8ebe1b89",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/22//#testresult/e246628c8ebe1b89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425850789,
+          "stop" : 1602425860116,
+          "duration" : 9327
+        }
+      }, {
+        "uid" : "346867c517304cbc",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/21//#testresult/346867c517304cbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425677742,
+          "stop" : 1602425686692,
+          "duration" : 8950
+        }
+      }, {
+        "uid" : "c45abe18e14fd900",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/20//#testresult/c45abe18e14fd900",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425520791,
+          "stop" : 1602425528162,
+          "duration" : 7371
+        }
+      }, {
+        "uid" : "2f7201e3f027bc7b",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/19//#testresult/2f7201e3f027bc7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425366042,
+          "stop" : 1602425373462,
+          "duration" : 7420
+        }
+      }, {
+        "uid" : "5030ae085c7f3890",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/5030ae085c7f3890",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425057210,
+          "stop" : 1602425063990,
+          "duration" : 6780
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e70f6ec892beeb83.json",
+  "parameterValues" : [ ]
+}

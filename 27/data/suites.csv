@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Oct 11 14:44:09 GMT 2020","Sun Oct 11 14:44:09 GMT 2020","397","","","","","","Putting price and sum from depth table into trade form -- @1.2 ",""
+"passed","Sun Oct 11 14:44:08 GMT 2020","Sun Oct 11 14:44:09 GMT 2020","350","","","","","","Putting price and sum from depth table into trade form -- @1.1 ",""
+"passed","Sun Oct 11 14:44:10 GMT 2020","Sun Oct 11 14:44:11 GMT 2020","1431","","","","","","Testing the 9-day forecast API",""
+"passed","Sun Oct 11 14:44:01 GMT 2020","Sun Oct 11 14:44:08 GMT 2020","7540","","","","","","Accessing trade page about CRO/USDC",""

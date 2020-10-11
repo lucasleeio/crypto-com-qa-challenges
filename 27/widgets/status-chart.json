@@ -1,0 +1,41 @@
+[ {
+  "uid" : "721467c0bf50bf7b",
+  "name" : "Putting price and sum from depth table into trade form -- @1.2 ",
+  "time" : {
+    "start" : 1602427449161,
+    "stop" : 1602427449558,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6ed46d014d6d47a",
+  "name" : "Putting price and sum from depth table into trade form -- @1.1 ",
+  "time" : {
+    "start" : 1602427448810,
+    "stop" : 1602427449160,
+    "duration" : 350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "495150d21c1f19a1",
+  "name" : "Testing the 9-day forecast API",
+  "time" : {
+    "start" : 1602427450476,
+    "stop" : 1602427451907,
+    "duration" : 1431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e70f6ec892beeb83",
+  "name" : "Accessing trade page about CRO/USDC",
+  "time" : {
+    "start" : 1602427441269,
+    "stop" : 1602427448809,
+    "duration" : 7540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
