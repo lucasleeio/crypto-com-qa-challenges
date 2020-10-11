@@ -1,0 +1,175 @@
+{
+  "uid" : "e7ab218dee36d3ce",
+  "name" : "Testing the 9-day forecast API",
+  "historyId" : "a7a193a7c41179fe2ceef8e8b01065fa",
+  "time" : {
+    "start" : 1602426582655,
+    "stop" : 1602426583606,
+    "duration" : 951
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I send a request using the API",
+      "time" : {
+        "start" : 1602426582655,
+        "stop" : 1602426583604,
+        "duration" : 949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then the API should response success",
+      "time" : {
+        "start" : 1602426583604,
+        "stop" : 1602426583604,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b8b63fe14b6d676",
+        "name" : "Status code",
+        "source" : "4b8b63fe14b6d676.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I extract the relative humidity for the day after tomorrow",
+      "time" : {
+        "start" : 1602426583605,
+        "stop" : 1602426583606,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4ce3b341d8fca11",
+        "name" : "Relative humidity",
+        "source" : "d4ce3b341d8fca11.txt",
+        "type" : "text/plain",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "MyObservatory 9-day forecast"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "762d9d3b7b5a014",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/23//#testresult/762d9d3b7b5a014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602426409186,
+          "stop" : 1602426410147,
+          "duration" : 961
+        }
+      }, {
+        "uid" : "554c67c667999b84",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/22//#testresult/554c67c667999b84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425864421,
+          "stop" : 1602425865363,
+          "duration" : 942
+        }
+      }, {
+        "uid" : "e4211e0ca0fc0a0a",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/21//#testresult/e4211e0ca0fc0a0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425692821,
+          "stop" : 1602425693525,
+          "duration" : 704
+        }
+      }, {
+        "uid" : "4f5d56da36566e38",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/20//#testresult/4f5d56da36566e38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425532779,
+          "stop" : 1602425533665,
+          "duration" : 886
+        }
+      }, {
+        "uid" : "4b8a598708fc1ca6",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/19//#testresult/4b8a598708fc1ca6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425377970,
+          "stop" : 1602425378908,
+          "duration" : 938
+        }
+      }, {
+        "uid" : "ecb0ba2578966ca8",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/ecb0ba2578966ca8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425069491,
+          "stop" : 1602425070883,
+          "duration" : 1392
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e7ab218dee36d3ce.json",
+  "parameterValues" : [ ]
+}
