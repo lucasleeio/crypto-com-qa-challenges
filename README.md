@@ -36,6 +36,8 @@ Write an automated test for the trade page about CRO/USDC, including any reasona
 
         behave
 
+- Note that the default setting is to run the test in headless mode. If demostration of interaction with a visible browser is needed, please change the config `is_headless = true` to `false` in `behave.ini`.
+
 ### Design details
 
 - The simple test case of accessing CRO/USDC Trade page through Exchange page is an obvious choice for the first test case. Nothing really stands out in this test case as it is simply to click and navigate. Note the `--disable-smooth-scrolling` option added to the driver, otherwise the step of clicking on the CRO/USDC row may be flaky as it is located at the bottom of the page and may take some time to scroll to with smooth scrolling, raising element not clickable error.
