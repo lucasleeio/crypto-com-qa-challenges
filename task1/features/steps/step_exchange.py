@@ -1,7 +1,7 @@
 from behave import given, when, then
 from hamcrest import assert_that, equal_to
 
-from pages import Exchange, Trade
+from task1.pages import Exchange, Trade
 
 
 @given('I am on exchange page')

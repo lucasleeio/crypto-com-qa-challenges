@@ -3,6 +3,8 @@ from behave import when, then
 import requests
 import logging
 from datetime import datetime, timedelta
+import allure
+from allure_commons.types import AttachmentType
 
 
 @when('I send a request using the API')
@@ -13,6 +15,7 @@ def step_send_request(context):
 @then('the API should response success')
 def step_response_success(context):
     logging.info(f'Status code: {context.response.status_code}')
+    allure.attach(f'{context.response.status_code}', name='Status code', attachment_type=AttachmentType.TEXT)
     assert context.response.ok
 
 
@@ -28,3 +31,4 @@ def step_extract_humidity(context):
     target_humidity = f"{target_forecast['min_rh']} - {target_forecast['max_rh']}%"
 
     logging.info(f'Relative humidity: {target_humidity}')
+    allure.attach(f'{target_humidity}', name='Relative humidity', attachment_type=AttachmentType.TEXT)
