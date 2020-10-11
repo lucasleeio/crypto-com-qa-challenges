@@ -1,0 +1,243 @@
+{
+  "141faa3bfd8013f605b67d528a0b9196" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9750aca7e77c24f7",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/9750aca7e77c24f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425068437,
+        "stop" : 1602425068822,
+        "duration" : 385
+      }
+    } ]
+  },
+  "a7a193a7c41179fe2ceef8e8b01065fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecb0ba2578966ca8",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/ecb0ba2578966ca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425069491,
+        "stop" : 1602425070883,
+        "duration" : 1392
+      }
+    } ]
+  },
+  "9a7320b15b5916271202551f842de129" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5267fbfebc13ee28",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/5267fbfebc13ee28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425067999,
+        "stop" : 1602425068437,
+        "duration" : 438
+      }
+    } ]
+  },
+  "8148cc2bd76a04b05b7fb8dd29c26ffd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c9315024641df3",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/9c9315024641df3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425066137,
+        "stop" : 1602425066633,
+        "duration" : 496
+      }
+    } ]
+  },
+  "a44ee497abcb6f132bd0eb5835de96f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed1e9c0151969ab1",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/ed1e9c0151969ab1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425065756,
+        "stop" : 1602425066137,
+        "duration" : 381
+      }
+    } ]
+  },
+  "afcc17ec0c192196f5a4f04b8e3a5cd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e6f05b09b25f76b",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/1e6f05b09b25f76b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425065233,
+        "stop" : 1602425065756,
+        "duration" : 523
+      }
+    } ]
+  },
+  "0d123116bbb6029161ee79cd8a669f66" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9a516fce1b5e8b",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/f9a516fce1b5e8b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \nExpected: <0.1552>\n     but: was <0.155>\n\n",
+      "time" : {
+        "start" : 1602425063991,
+        "stop" : 1602425064692,
+        "duration" : 701
+      }
+    } ]
+  },
+  "45c00f2680f2a0a7785d222a504a2d06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cff603fc6ea1d9e",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/7cff603fc6ea1d9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425066633,
+        "stop" : 1602425067486,
+        "duration" : 853
+      }
+    } ]
+  },
+  "b90c3f03dfc00c65d98493af5b214238" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1f52ee066518e54",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/d1f52ee066518e54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425068823,
+        "stop" : 1602425069206,
+        "duration" : 383
+      }
+    } ]
+  },
+  "8f401c96ee162702fe024882bf1d54d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc98eae03c8e84e1",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/fc98eae03c8e84e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425067487,
+        "stop" : 1602425067998,
+        "duration" : 511
+      }
+    } ]
+  },
+  "e922af7b243d55287757bf7f7dea9006" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff7d0ba1007cc841",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/ff7d0ba1007cc841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425064693,
+        "stop" : 1602425065233,
+        "duration" : 540
+      }
+    } ]
+  },
+  "84a73cd2f81f24086e16a684c3c13410" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5030ae085c7f3890",
+      "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/5030ae085c7f3890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602425057210,
+        "stop" : 1602425063990,
+        "duration" : 6780
+      }
+    } ]
+  }
+}

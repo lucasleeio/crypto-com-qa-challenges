@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://lucasleeio.github.io/crypto-com-qa-challenges",
+  "buildOrder" : 18,
+  "buildName" : "GitHub Actions Run #300561827",
+  "buildUrl" : "https://github.com/lucasleeio/crypto-com-qa-challenges/actions/runs/300561827",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18/"
+} ]

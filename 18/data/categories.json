@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: \nExpected: <0.1552>\n     but: was <0.155>\n\n",
+      "children" : [ {
+        "name" : "Putting price and sum from depth table into trade form -- @1.1 ",
+        "uid" : "f9a516fce1b5e8b",
+        "parentUid" : "c613b284e4ed5b0eb77bd2f09860ac1a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602425063991,
+          "stop" : 1602425064692,
+          "duration" : 701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "sell", "1" ]
+      } ],
+      "uid" : "c613b284e4ed5b0eb77bd2f09860ac1a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
