@@ -1,0 +1,161 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Accessing trade page about CRO/USDC",
+    "uid" : "346867c517304cbc",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425677742,
+      "stop" : 1602425686692,
+      "duration" : 8950
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Putting price and sum from depth table into trade form -- @1.1 ",
+    "uid" : "da66ec1eea0d005",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425686692,
+      "stop" : 1602425687309,
+      "duration" : 617
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "sell", "1" ]
+  }, {
+    "name" : "Putting price and sum from depth table into trade form -- @1.2 ",
+    "uid" : "dc076b2da3c738d3",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425687310,
+      "stop" : 1602425687704,
+      "duration" : 394
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "sell", "5" ]
+  }, {
+    "name" : "Putting price and sum from depth table into trade form -- @1.3 ",
+    "uid" : "68f78b1e1201fb5c",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425687705,
+      "stop" : 1602425688230,
+      "duration" : 525
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "buy", "-1" ]
+  }, {
+    "name" : "Putting price and sum from depth table into trade form -- @1.4 ",
+    "uid" : "c804ed46723e5699",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425688230,
+      "stop" : 1602425688690,
+      "duration" : 460
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "buy", "-5" ]
+  }, {
+    "name" : "Calculating total in trade form -- @1.1 ",
+    "uid" : "2ac0e66b0c1ba315",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425688691,
+      "stop" : 1602425689398,
+      "duration" : 707
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "buy", "0.1600", "0.640000" ]
+  }, {
+    "name" : "Calculating total in trade form -- @1.2 ",
+    "uid" : "2d7198413594ba43",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425689399,
+      "stop" : 1602425689791,
+      "duration" : 392
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4.594", "buy", "0.2020", "0.927988" ]
+  }, {
+    "name" : "Calculating total in trade form -- @1.3 ",
+    "uid" : "da5a494b22d7c638",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425689792,
+      "stop" : 1602425690732,
+      "duration" : 940
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1126689.883", "buy", "0.1569", "176777.642643" ]
+  }, {
+    "name" : "Calculating total in trade form -- @1.4 ",
+    "uid" : "9fd0f8c58aa00a82",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425690733,
+      "stop" : 1602425691228,
+      "duration" : 495
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "sell", "0.1600", "0.640000" ]
+  }, {
+    "name" : "Calculating total in trade form -- @1.5 ",
+    "uid" : "a45ac3531c4092ac",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425691229,
+      "stop" : 1602425691943,
+      "duration" : 714
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "56.984", "sell", "0.1020", "5.812368" ]
+  }, {
+    "name" : "Calculating total in trade form -- @1.6 ",
+    "uid" : "71b5a7624da513b9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425691944,
+      "stop" : 1602425692448,
+      "duration" : 504
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1335450.806", "sell", "0.1533", "204724.608560" ]
+  }, {
+    "name" : "Testing the 9-day forecast API",
+    "uid" : "e4211e0ca0fc0a0a",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602425692821,
+      "stop" : 1602425693525,
+      "duration" : 704
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}

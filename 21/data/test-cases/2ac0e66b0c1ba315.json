@@ -1,0 +1,163 @@
+{
+  "uid" : "2ac0e66b0c1ba315",
+  "name" : "Calculating total in trade form -- @1.1 ",
+  "historyId" : "8148cc2bd76a04b05b7fb8dd29c26ffd",
+  "time" : {
+    "start" : 1602425688691,
+    "stop" : 1602425689398,
+    "duration" : 707
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on CRO/USDC trade page",
+      "time" : {
+        "start" : 1602425688692,
+        "stop" : 1602425688839,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I input \"0.1600\" into price of \"buy\" trade form",
+      "time" : {
+        "start" : 1602425688839,
+        "stop" : 1602425689112,
+        "duration" : 273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I input \"4\" into amount of \"buy\" trade form",
+      "time" : {
+        "start" : 1602425689112,
+        "stop" : 1602425689281,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see \"0.640000\" calculated in \"buy\" trade form",
+      "time" : {
+        "start" : 1602425689281,
+        "stop" : 1602425689398,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Crypto.com Exchange"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "amount",
+    "value" : "4"
+  }, {
+    "name" : "buy/sell",
+    "value" : "buy"
+  }, {
+    "name" : "price",
+    "value" : "0.1600"
+  }, {
+    "name" : "total",
+    "value" : "0.640000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2362e8a084338514",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/20//#testresult/2362e8a084338514",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425529656,
+          "stop" : 1602425530061,
+          "duration" : 405
+        }
+      }, {
+        "uid" : "b3863f8fe5d08adc",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/19//#testresult/b3863f8fe5d08adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425374784,
+          "stop" : 1602425375188,
+          "duration" : 404
+        }
+      }, {
+        "uid" : "9c9315024641df3",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/9c9315024641df3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425066137,
+          "stop" : 1602425066633,
+          "duration" : 496
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2ac0e66b0c1ba315.json",
+  "parameterValues" : [ "4", "buy", "0.1600", "0.640000" ]
+}
