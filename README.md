@@ -8,15 +8,27 @@
 
 ## Setup
 
-0.  (Optional) Setup a new virtual environment.
+### Running with Github Actions
+
+![CI](https://github.com/lucasleeio/crypto-com-qa-challenges/workflows/CI/badge.svg?branch=master)
+
+A workflow was set to run the tests on push/dispatch. Allure reports of the runs can be seen [here](https://lucasleeio.github.io/crypto-com-qa-challenges/).
+
+![Allure](images/allure.png)
+
+### Running Locally
+
+0.  Clone this repository.
+
+1.  (Optional) Setup a new virtual environment.
 
         python -m venv venv
 
-1.  Install the required dependencies.
+2.  Install the required dependencies.
 
         pip install -r requirements.txt
 
-2.  Ensure the correct version of [ChromeDriver](https://chromedriver.chromium.org/) is present in PATH.
+3.  Ensure the correct version of [ChromeDriver](https://chromedriver.chromium.org/) is present in PATH.
 
 ## Task 1
 
@@ -28,15 +40,11 @@ Write an automated test for the trade page about CRO/USDC, including any reasona
 
 ### Running the test
 
-1.  Change current working directory into `task1`
+Run the test with behave.
 
-        cd task1
+    behave ./task1/features
 
-2.  Run the test with behave
-
-        behave
-
-- Note that the default setting is to run the test in headless mode. If demostration of interaction with a visible browser is needed, please change the config `is_headless = true` to `false` in `behave.ini`.
+- Note that the default setting is to run the test in headless mode. If demonstration of interaction with a visible browser is needed, please change the config `is_headless = true` to `false` in `behave.ini`.
 
 ### Design details
 
@@ -56,13 +64,9 @@ Write an automated test for the API used in the 9-day forecast page of the app, 
 
 ### Running the test
 
-1.  Change current working directory into `task2`
+Run the test with behave.
 
-        cd task2
-
-2.  Run the test with behave
-
-        behave
+    behave ./task2/features
 
 ### Design details
 
