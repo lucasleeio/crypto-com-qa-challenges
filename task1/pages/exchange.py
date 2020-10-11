@@ -21,3 +21,17 @@ class Exchange(Page):
         page_content = self.find_element(*self._page_content_locator)
         spinner = self.find_element(*self._spinner_locator)
         return page_content.is_displayed() and not spinner.is_displayed()
+
+    @property
+    def accept_cookies(self):
+        return self.find_element(*self._accept_cookies_locator)
+
+    @property
+    def cro_markets(self):
+        return self.find_element(*self._tabs_locator) \
+            .find_element(*self._cro_tab_locator)
+
+    @property
+    def cro_usdc(self):
+        return self.find_element(*self._tbody_locator) \
+            .find_element(*self._cro_usdc_locator)
