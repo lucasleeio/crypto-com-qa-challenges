@@ -17,3 +17,18 @@ Feature: Crypto.com Exchange
             | 2   | sell     |
             | -1  | buy      |
             | -2  | buy      |
+
+    Scenario Outline: Calculating total in trade form
+        Given I am on CRO/USDC trade page
+        When I input "<price>" into price of "<buy/sell>" trade form
+        And  I input "<amount>" into amount of "<buy/sell>" trade form
+        Then I should see "<total>" calculated in "<buy/sell>" trade form
+
+        Examples:
+            | buy/sell | price  | amount      | total         |
+            | buy      | 0.1600 | 4           | 0.640000      |
+            | buy      | 0.2020 | 4.594       | 0.927988      |
+            | buy      | 0.1569 | 1126689.883 | 176777.642643 |
+            | sell     | 0.1600 | 4           | 0.640000      |
+            | sell     | 0.1020 | 56.984      | 5.812368      |
+            | sell     | 0.1533 | 1335450.806 | 204724.608560 |
