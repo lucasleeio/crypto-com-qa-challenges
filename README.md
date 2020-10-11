@@ -38,7 +38,11 @@ Write an automated test for the trade page about CRO/USDC, including any reasona
 
 ### Design details
 
-[WIP]
+- The simple test case of accessing CRO/USDC Trade page through Exchange page is an obvious choice for the first test case. Nothing really stands out in this test case as it is simply to click and navigate. Note the `--disable-smooth-scrolling` option added to the driver, otherwise the step of clicking on the CRO/USDC row may be flaky as it is located at the bottom of the page and may take some time to scroll to with smooth scrolling, raising element not clickable error.
+
+- The second and third test case were chosen to demonstrating the data driven capability of Behave, utilizing Scenario Outline. The second test case test for the ability to put price and amount values directly into the trade form directly when a row in the depth table was clicked. This test case is a bit flaky in nature as the price updates constantly, but the order of step execution was carefully constructed to minimize time delay.
+
+- The third test case test for the total amount calculation in the Buy/Sell trade form, which also demonstrate to ability to interact with input fields, both to read and set values.
 
 ## Task 2
 
