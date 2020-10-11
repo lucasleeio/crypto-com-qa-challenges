@@ -1,0 +1,139 @@
+{
+  "uid" : "4f5d56da36566e38",
+  "name" : "Testing the 9-day forecast API",
+  "historyId" : "a7a193a7c41179fe2ceef8e8b01065fa",
+  "time" : {
+    "start" : 1602425532779,
+    "stop" : 1602425533665,
+    "duration" : 886
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I send a request using the API",
+      "time" : {
+        "start" : 1602425532779,
+        "stop" : 1602425533663,
+        "duration" : 884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then the API should response success",
+      "time" : {
+        "start" : 1602425533663,
+        "stop" : 1602425533664,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae1544c33f2df250",
+        "name" : "Status code",
+        "source" : "ae1544c33f2df250.txt",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I extract the relative humidity for the day after tomorrow",
+      "time" : {
+        "start" : 1602425533664,
+        "stop" : 1602425533665,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb021e00d2ccf749",
+        "name" : "Relative humidity",
+        "source" : "bb021e00d2ccf749.txt",
+        "type" : "text/plain",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "MyObservatory 9-day forecast"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4b8a598708fc1ca6",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/19//#testresult/4b8a598708fc1ca6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425377970,
+          "stop" : 1602425378908,
+          "duration" : 938
+        }
+      }, {
+        "uid" : "ecb0ba2578966ca8",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/ecb0ba2578966ca8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425069491,
+          "stop" : 1602425070883,
+          "duration" : 1392
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4f5d56da36566e38.json",
+  "parameterValues" : [ ]
+}

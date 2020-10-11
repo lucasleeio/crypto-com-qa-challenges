@@ -1,0 +1,121 @@
+[ {
+  "uid" : "81153c88d5139590",
+  "name" : "Calculating total in trade form -- @1.5 ",
+  "time" : {
+    "start" : 1602425531275,
+    "stop" : 1602425531910,
+    "duration" : 635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e81abc441a2d273",
+  "name" : "Calculating total in trade form -- @1.3 ",
+  "time" : {
+    "start" : 1602425530458,
+    "stop" : 1602425530853,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "146358c27fd85247",
+  "name" : "Calculating total in trade form -- @1.2 ",
+  "time" : {
+    "start" : 1602425530062,
+    "stop" : 1602425530457,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae0ce973eb869cd0",
+  "name" : "Putting price and sum from depth table into trade form -- @1.1 ",
+  "time" : {
+    "start" : 1602425528163,
+    "stop" : 1602425528590,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2362e8a084338514",
+  "name" : "Calculating total in trade form -- @1.1 ",
+  "time" : {
+    "start" : 1602425529656,
+    "stop" : 1602425530061,
+    "duration" : 405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f396d45d99eafc8c",
+  "name" : "Calculating total in trade form -- @1.4 ",
+  "time" : {
+    "start" : 1602425530853,
+    "stop" : 1602425531275,
+    "duration" : 422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeab09cbc502b153",
+  "name" : "Calculating total in trade form -- @1.6 ",
+  "time" : {
+    "start" : 1602425531911,
+    "stop" : 1602425532453,
+    "duration" : 542
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f5d56da36566e38",
+  "name" : "Testing the 9-day forecast API",
+  "time" : {
+    "start" : 1602425532779,
+    "stop" : 1602425533665,
+    "duration" : 886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c45abe18e14fd900",
+  "name" : "Accessing trade page about CRO/USDC",
+  "time" : {
+    "start" : 1602425520791,
+    "stop" : 1602425528162,
+    "duration" : 7371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ada34c2d37439128",
+  "name" : "Putting price and sum from depth table into trade form -- @1.2 ",
+  "time" : {
+    "start" : 1602425528590,
+    "stop" : 1602425529000,
+    "duration" : 410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4e691c2e774be8e",
+  "name" : "Putting price and sum from depth table into trade form -- @1.3 ",
+  "time" : {
+    "start" : 1602425529000,
+    "stop" : 1602425529368,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b1e3a97486bb1d0",
+  "name" : "Putting price and sum from depth table into trade form -- @1.4 ",
+  "time" : {
+    "start" : 1602425529369,
+    "stop" : 1602425529655,
+    "duration" : 286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
