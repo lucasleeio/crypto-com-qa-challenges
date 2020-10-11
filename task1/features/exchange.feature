@@ -14,9 +14,9 @@ Feature: Crypto.com Exchange
         Examples:
             | row | buy/sell |
             | 1   | sell     |
-            | 2   | sell     |
+            | 5   | sell     |
             | -1  | buy      |
-            | -2  | buy      |
+            | -5  | buy      |
 
     Scenario Outline: Calculating total in trade form
         Given I am on CRO/USDC trade page
