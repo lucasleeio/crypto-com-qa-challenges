@@ -12,7 +12,7 @@
 
 ![CI](https://github.com/lucasleeio/crypto-com-qa-challenges/workflows/CI/badge.svg?branch=master)
 
-A workflow was set to run the tests on push/dispatch. Allure reports of the runs can be seen [here](https://lucasleeio.github.io/crypto-com-qa-challenges/).
+A workflow was set using [Github Actions](https://github.com/lucasleeio/crypto-com-qa-challenges/actions) to run the tests on push/dispatch. Allure reports of the runs can be seen [here](https://lucasleeio.github.io/crypto-com-qa-challenges/).
 
 ![Allure](images/allure.png)
 
