@@ -1,0 +1,151 @@
+{
+  "uid" : "c0c26150c7a11359",
+  "name" : "Putting price and sum from depth table into trade form -- @1.4 ",
+  "historyId" : "a44ee497abcb6f132bd0eb5835de96f2",
+  "time" : {
+    "start" : 1602425861306,
+    "stop" : 1602425861597,
+    "duration" : 291
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on CRO/USDC trade page",
+      "time" : {
+        "start" : 1602425861306,
+        "stop" : 1602425861347,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click row \"-5\" in depth table",
+      "time" : {
+        "start" : 1602425861347,
+        "stop" : 1602425861528,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see its price and sum put into \"buy\" trade form",
+      "time" : {
+        "start" : 1602425861528,
+        "stop" : 1602425861597,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Crypto.com Exchange"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "buy/sell",
+    "value" : "buy"
+  }, {
+    "name" : "row",
+    "value" : "-5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "c804ed46723e5699",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/21//#testresult/c804ed46723e5699",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425688230,
+          "stop" : 1602425688690,
+          "duration" : 460
+        }
+      }, {
+        "uid" : "8b1e3a97486bb1d0",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/20//#testresult/8b1e3a97486bb1d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425529369,
+          "stop" : 1602425529655,
+          "duration" : 286
+        }
+      }, {
+        "uid" : "80f601ca1052f3c7",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/19//#testresult/80f601ca1052f3c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425374498,
+          "stop" : 1602425374783,
+          "duration" : 285
+        }
+      }, {
+        "uid" : "ed1e9c0151969ab1",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/ed1e9c0151969ab1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425065756,
+          "stop" : 1602425066137,
+          "duration" : 381
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c0c26150c7a11359.json",
+  "parameterValues" : [ "buy", "-5" ]
+}

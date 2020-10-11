@@ -1,0 +1,172 @@
+{
+  "uid" : "863a3c07b884d317",
+  "name" : "Calculating total in trade form -- @1.4 ",
+  "historyId" : "9a7320b15b5916271202551f842de129",
+  "time" : {
+    "start" : 1602425862916,
+    "stop" : 1602425863332,
+    "duration" : 416
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on CRO/USDC trade page",
+      "time" : {
+        "start" : 1602425862916,
+        "stop" : 1602425862952,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I input \"0.1600\" into price of \"sell\" trade form",
+      "time" : {
+        "start" : 1602425862952,
+        "stop" : 1602425863096,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I input \"4\" into amount of \"sell\" trade form",
+      "time" : {
+        "start" : 1602425863096,
+        "stop" : 1602425863257,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see \"0.640000\" calculated in \"sell\" trade form",
+      "time" : {
+        "start" : 1602425863257,
+        "stop" : 1602425863332,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Crypto.com Exchange"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "amount",
+    "value" : "4"
+  }, {
+    "name" : "buy/sell",
+    "value" : "sell"
+  }, {
+    "name" : "price",
+    "value" : "0.1600"
+  }, {
+    "name" : "total",
+    "value" : "0.640000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "9fd0f8c58aa00a82",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/21//#testresult/9fd0f8c58aa00a82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425690733,
+          "stop" : 1602425691228,
+          "duration" : 495
+        }
+      }, {
+        "uid" : "f396d45d99eafc8c",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/20//#testresult/f396d45d99eafc8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425530853,
+          "stop" : 1602425531275,
+          "duration" : 422
+        }
+      }, {
+        "uid" : "f03b2a2dbdcb2d63",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/19//#testresult/f03b2a2dbdcb2d63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425375970,
+          "stop" : 1602425376611,
+          "duration" : 641
+        }
+      }, {
+        "uid" : "5267fbfebc13ee28",
+        "reportUrl" : "https://lucasleeio.github.io/crypto-com-qa-challenges/18//#testresult/5267fbfebc13ee28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602425067999,
+          "stop" : 1602425068437,
+          "duration" : 438
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "863a3c07b884d317.json",
+  "parameterValues" : [ "4", "sell", "0.1600", "0.640000" ]
+}
